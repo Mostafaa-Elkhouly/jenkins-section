@@ -17,7 +17,7 @@ pipeline {
         stage('deploy') {
             steps {
                 sh 'pwd'
-                sh 'whoami' 
+                sh 'whoamiss' 
             }
         }
     }
